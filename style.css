@@ -1,0 +1,110 @@
+/* Navbar */
+
+.container img {
+    margin: 0px;
+    padding: 0px;
+    height: 83px;
+    width: 100px;
+}
+
+.container p {
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.container span {
+    font-weight: 1000;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 583px;
+    margin-right: 0px;
+}
+
+.jumbotron .container {
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+}
+
+.jumbotron p {
+    font-size: 22px;
+}
+
+/* Description */
+.description {
+    margin-left: 100px;
+}
+
+.description img {
+    height: 380px;
+    width: 600px;
+    margin-right: 70px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.description h1 {
+    font-size: 44px;
+    margin-top: 76px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+/* Roles */
+.role {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.role span{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 750;
+    font-size: 38px;
+}
+
+.role .roles h3{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 750;
+    font-size: 28px;
+}
+
+
+
+/* Utility */
+
+/* DESKTOP VERSION*/
+
+@media (min-width: 992px) {
+    .nav-link {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: ' ';
+        display: block;
+        border-bottom: 3px solid #EC2128;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 6px;
+        margin-bottom: -8px;
+    }
+
+
+
+}
